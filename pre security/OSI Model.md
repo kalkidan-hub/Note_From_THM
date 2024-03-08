@@ -24,13 +24,15 @@ are the two main protocols in action in this layer
 Network
 =
 A layer where routing and re-assembly of data takes place.
-Protocols at this layer are concerned with finding the optimal path for the [[packet & frames#Packet]] transmission. 
+Protocols at this layer are concerned with finding the optimal path for the [packet](Packet&Frame.md#Packer) transmission. 
 - RIP
 - OSPF are some to mention
 
 Data Link
 =
-This layer concerns with linking(attaching) a physical address(MAC address - that's engraved on the NIC) to the packet received. Thereby creating [frames] [[packet & frames#Frames]]
+This layer concerns with linking(attaching) a physical address(MAC address - that's engraved on the NIC) to the packet received. Thereby creating 
+[[Packet&Frame#^Frames]]
+
 
 
 Changing/presenting to a format that is suitable for transmission is also another job on the table for this layer.
