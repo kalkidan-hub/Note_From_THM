@@ -33,10 +33,10 @@ LAN networking devices
 Routers are devices that connect ==networks==, not hosts but networks.
 Their main function is to route a packet across the network, this involves choosing the best route, abiding to the configuration rules and so on.
 
-```NOTE
+>[!Tip]
+>NAT traslation table and port forwarding methods are used together to map the private ip address with the packet that reaches at the gateway.
 
-NAT traslation table and port forwarding methods are used together to map the private ip address with the packet that reaches at the gateway.
-```
+
 
 ### Switch
 

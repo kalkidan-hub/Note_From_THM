@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c894363be82a6c3f",
+        "id": "68590ab24d2f5412",
         "type": "tabs",
         "children": [
           {
-            "id": "d6d7db09ee99c88b",
+            "id": "82e16571325ae235",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pre security/Intro to LAN.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pre security/Intro to LAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pre security/Intro to LAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,17 +118,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pre security/Intro to LAN.md"
-              }
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,24 +139,45 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "d6d7db09ee99c88b",
+  "active": "82e16571325ae235",
   "lastOpenFiles": [
+    "complete beginner/Introductory Researching/Google Dorking.md",
+    "complete beginner/Introductory Researching/Methodology.md",
+    "complete beginner/Introductory Researching/Manual Page.md",
+    "Pasted image 20240312100619.png",
+    "Pasted image 20240311222148.png",
+    "complete beginner/Introductory Researching/Vulnerability Searching.md",
+    "complete beginner/Introductory Researching.md",
+    "complete beginner/Introductory Researching",
+    "pre security/TCP-IP.md",
     "pre security/Subnetting.md",
-    "pre security/OSI Model.md",
+    "pre security/Packet&Frame.md",
+    "pre security/Other Components.md",
     "pre security/Network Fundamentals.md",
+    "pre security/OSI Model.md",
     "pre security/Intro to LAN.md",
+    "pre security/Extending Network.md",
+    "pre security/DNS.md",
+    "Pasted image 20240309104721.png",
+    "pre security/UDP.md",
+    "pre security/HTTP.md",
+    "Pasted image 20240309104907.png",
+    "network.md",
+    "Packer&Frame.md",
+    "packet & frames.md",
     "pre security/packet & frames.md",
+    "().md",
+    "[[packet&frame]].md",
+    "packet&frame.md",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
     "Intro to cyber/Network security.md",
     "Untitled 2",
     "packate.md",
     "[packet & frames.md",
-    "pre security/packet.md",
-    "Untitled.md",
-    "2024-03-06.md",
     "Untitled 1",
-    "Untitled",
-    "Untitled.canvas",
-    "Intro to cyber/Security operation.md",
+    "complete beginner",
     "Intro to cyber",
     "pre security"
   ]

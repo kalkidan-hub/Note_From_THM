@@ -1,6 +1,7 @@
 ## Subnetting
 
 
+
 *what is subnetting?*
 
 A process of changing the larger one network into smaller, minute different and isolated network.
