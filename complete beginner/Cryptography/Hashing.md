@@ -70,3 +70,6 @@ john hash_file -format=[hash_format] -wordlist=[wordlist_to_perform_cracking_to]
 ### Hashing for integrity checking
 - `HMAC` is a method of using a cryptographic hashing function to verify the authenticity and integrity of data
 - They use a secret key, and a hashing algorithm in order to produce a hash.
+
+
+
