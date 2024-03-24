@@ -1,3 +1,10 @@
+
+The TCP/IP model, which introduced even before OSI model has four layers
+- Application - application, presentation and session layer of OSI model
+- Transport - transport layer of OSI nodel
+- Internet - network layer of OSI
+- Network Interface - data-link layer and physical layer together
+
 Unlike its brother [[UDP ]]
 connection, TCP is a state-full communication, where the state contains the following eentries.
 sections contained by TCP packet...

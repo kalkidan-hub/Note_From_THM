@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "68590ab24d2f5412",
+        "id": "16547f7fe364687d",
         "type": "tabs",
         "children": [
           {
-            "id": "82e16571325ae235",
+            "id": "4627e06c293d57f3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "complete beginner/Cryptography/Hashing.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "560200bddb57188b",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "complete beginner/Cryptography/Hashing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "complete beginner/Cryptography/Hashing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "complete beginner/Cryptography/Hashing.md"
+              }
             }
           }
         ]
@@ -139,8 +148,31 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "82e16571325ae235",
+  "active": "4627e06c293d57f3",
   "lastOpenFiles": [
+    "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
+    "complete beginner/Cryptography/Hashing.md",
+    "complete beginner/Cryptography",
+    "complete beginner/Windows Exploitation Basics/Windows Fundamentals 2.md",
+    "complete beginner/Windows Exploitation Basics",
+    "complete beginner/web hacking fundamentals/OWASP Juice Shop.md",
+    "complete beginner/Network Exploitation Basics/Network Service 2.md",
+    "complete beginner/Network Exploitation Basics/nmap.md",
+    "complete beginner/Network Exploitation Basics/Networking Intro.md",
+    "complete beginner/Network Exploitation Basics/Network Services 1.md",
+    "complete beginner/web hacking fundamentals/OWASP Top 10 - 2021.md",
+    "Broken Access Control.md",
+    "Pasted image 20240319112536.png",
+    "complete beginner/web hacking fundamentals/Burp Suite.md",
+    "complete beginner/web hacking fundamentals",
+    "pre security/TCP-IP.md",
+    "pre security/OSI Model.md",
+    "complete beginner/LInux Fundamentals/Linux Fundamentals 3.md",
+    "complete beginner/Network Exploitation Basics",
+    "().md",
+    "complete beginner/LInux Fundamentals/Linux Fundamental 1.md",
+    "complete beginner/LInux Fundamentals/Linux Fundamentals 2.md",
+    "complete beginner/LInux Fundamentals",
     "complete beginner/Introductory Researching/Google Dorking.md",
     "complete beginner/Introductory Researching/Methodology.md",
     "complete beginner/Introductory Researching/Manual Page.md",
@@ -149,36 +181,18 @@
     "complete beginner/Introductory Researching/Vulnerability Searching.md",
     "complete beginner/Introductory Researching.md",
     "complete beginner/Introductory Researching",
-    "pre security/TCP-IP.md",
     "pre security/Subnetting.md",
     "pre security/Packet&Frame.md",
     "pre security/Other Components.md",
     "pre security/Network Fundamentals.md",
-    "pre security/OSI Model.md",
-    "pre security/Intro to LAN.md",
-    "pre security/Extending Network.md",
-    "pre security/DNS.md",
     "Pasted image 20240309104721.png",
-    "pre security/UDP.md",
-    "pre security/HTTP.md",
     "Pasted image 20240309104907.png",
-    "network.md",
-    "Packer&Frame.md",
-    "packet & frames.md",
-    "pre security/packet & frames.md",
-    "().md",
-    "[[packet&frame]].md",
-    "packet&frame.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Intro to cyber/Network security.md",
     "Untitled 2",
-    "packate.md",
-    "[packet & frames.md",
     "Untitled 1",
     "complete beginner",
-    "Intro to cyber",
-    "pre security"
+    "Intro to cyber"
   ]
 }
