@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "16547f7fe364687d",
+        "id": "6c3d3213b928bab9",
         "type": "tabs",
         "children": [
           {
-            "id": "4627e06c293d57f3",
+            "id": "ce6b9a382b9623cc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "complete beginner/Cryptography/Hashing.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "560200bddb57188b",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "complete beginner/Cryptography/Hashing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "complete beginner/Cryptography/Hashing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "complete beginner/Cryptography/Hashing.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -144,14 +135,13 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "github-sync:Sync with Remote": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "4627e06c293d57f3",
+  "active": "ce6b9a382b9623cc",
   "lastOpenFiles": [
-    "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
     "complete beginner/Cryptography/Hashing.md",
+    "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
     "complete beginner/Cryptography",
     "complete beginner/Windows Exploitation Basics/Windows Fundamentals 2.md",
     "complete beginner/Windows Exploitation Basics",
