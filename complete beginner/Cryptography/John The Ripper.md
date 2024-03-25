@@ -65,4 +65,32 @@ The good thing about `John` is that you can define your own sets of rules, which
 - By editing the `/etc/john/john.conf` file, 
 - add a `[List.Rules:[name of your rule]]` and state your rules below
 *How to write those rules?*
+[learn Regex](https://cheatography.com/davechild/cheat-sheets/regular-expressions/)
 
+### Cracking Password Protected Zip File
+
+#### Zip2John 
+- first thing first, let `john` understand the thing...
+
+```zsh
+zip2john [options] [zip file] > [output file]
+```
+
+Then the usual cracking...
+
+### Cracking Password Protected RAR Archives
+
+#### Rar2John
+
+```zsh
+rar2john [rar file] > [output file] 
+```
+
+### Cracking SSH Keys with John
+#### SSH2John
+```zsh
+ssh2john [id_rsa private key file] > [output file]
+```
+
+
+### [Further](https://www.openwall.com/john/)

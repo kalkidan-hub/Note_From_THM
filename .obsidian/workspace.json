@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6c3d3213b928bab9",
+        "id": "4ee3dd58dc395418",
         "type": "tabs",
         "children": [
           {
-            "id": "4da941dd091f0c40",
+            "id": "ac8a7ad9eaec384a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "complete beginner/Cryptography/John The Ripper.md",
+                "file": "complete beginner/Cryptography/Encryption - Crypto 101.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "complete beginner/Cryptography/John The Ripper.md",
+                "file": "complete beginner/Cryptography/Encryption - Crypto 101.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "complete beginner/Cryptography/John The Ripper.md",
+                "file": "complete beginner/Cryptography/Encryption - Crypto 101.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "complete beginner/Cryptography/John The Ripper.md"
+                "file": "complete beginner/Cryptography/Encryption - Crypto 101.md"
               }
             }
           },
@@ -156,10 +156,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4da941dd091f0c40",
+  "active": "ac8a7ad9eaec384a",
   "lastOpenFiles": [
-    "complete beginner/Cryptography/Hashing.md",
     "complete beginner/Cryptography/John The Ripper.md",
+    "complete beginner/Cryptography/Encryption - Crypto 101.md",
+    "complete beginner/Cryptography/Hashing.md",
     "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
     "complete beginner/Cryptography",
     "complete beginner/Windows Exploitation Basics/Windows Fundamentals 2.md",
@@ -192,7 +193,6 @@
     "complete beginner/Introductory Researching",
     "pre security/Subnetting.md",
     "pre security/Packet&Frame.md",
-    "pre security/Other Components.md",
     "Pasted image 20240309104721.png",
     "Pasted image 20240309104907.png",
     "Untitled 2.canvas",
