@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "complete beginner/Cryptography/Encryption - Crypto 101.md",
+                "file": "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "complete beginner/Cryptography/Encryption - Crypto 101.md",
+                "file": "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "complete beginner/Cryptography/Encryption - Crypto 101.md",
+                "file": "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "complete beginner/Cryptography/Encryption - Crypto 101.md"
+                "file": "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md"
               }
             }
           },
@@ -158,13 +158,13 @@
   },
   "active": "ac8a7ad9eaec384a",
   "lastOpenFiles": [
+    "complete beginner/Cryptography/Encryption - Crypto 101.md",
     "Pasted image 20240325120219.png",
     "Pasted image 20240325120137.png",
     "Pasted image 20240325115943.png",
     "Pasted image 20240325115753.png",
     "Pasted image 20240325115512.png",
     "complete beginner/Cryptography/John The Ripper.md",
-    "complete beginner/Cryptography/Encryption - Crypto 101.md",
     "complete beginner/Cryptography/Hashing.md",
     "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
     "complete beginner/Cryptography",
