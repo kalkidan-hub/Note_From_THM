@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4ee3dd58dc395418",
+        "id": "a9967e53301f64dd",
         "type": "tabs",
         "children": [
           {
-            "id": "ac8a7ad9eaec384a",
+            "id": "397f1f8a19f386eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
+                "file": "complete beginner/Shells and Privilege Escalation/What the Shell?.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
+                "file": "complete beginner/Shells and Privilege Escalation/What the Shell?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
+                "file": "complete beginner/Shells and Privilege Escalation/What the Shell?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md"
+                "file": "complete beginner/Shells and Privilege Escalation/What the Shell?.md"
               }
             }
           },
@@ -156,8 +156,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ac8a7ad9eaec384a",
+  "active": "397f1f8a19f386eb",
   "lastOpenFiles": [
+    "complete beginner/Shells and Privilege Escalation/What the Shell?.md",
+    "complete beginner/Shells and Privilege Escalation",
+    "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
     "complete beginner/Cryptography/Encryption - Crypto 101.md",
     "Pasted image 20240325120219.png",
     "Pasted image 20240325120137.png",
@@ -166,7 +169,6 @@
     "Pasted image 20240325115512.png",
     "complete beginner/Cryptography/John The Ripper.md",
     "complete beginner/Cryptography/Hashing.md",
-    "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
     "complete beginner/Cryptography",
     "complete beginner/Windows Exploitation Basics/Windows Fundamentals 2.md",
     "complete beginner/Windows Exploitation Basics",
@@ -204,7 +206,6 @@
     "Untitled.canvas",
     "Untitled 2",
     "Untitled 1",
-    "complete beginner",
-    "Intro to cyber"
+    "complete beginner"
   ]
 }
