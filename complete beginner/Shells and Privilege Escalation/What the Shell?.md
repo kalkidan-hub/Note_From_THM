@@ -9,3 +9,8 @@
 	
 
 
+### Tools
+- Netcat
+- Socat
+- Metasploit - multi/handler
+- Msfvenom
