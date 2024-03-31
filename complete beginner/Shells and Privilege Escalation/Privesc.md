@@ -17,3 +17,8 @@
 - an attempt to gain higher privileges or access
 - travel `up` on the tree
 
+### How to detect/enumerate privesc vulnerabilities
+[LinEnum](https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh)
+
+> LinEnum is a simple bash script that performs common commands related to privilege escalation, saving time and allowing more effort to be put toward getting root.
+
