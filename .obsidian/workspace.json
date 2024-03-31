@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "complete beginner/Shells and Privilege Escalation/What the Shell?.md",
+                "file": "complete beginner/Shells and Privilege Escalation/Privesc.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "complete beginner/Shells and Privilege Escalation/What the Shell?.md",
+                "file": "complete beginner/Shells and Privilege Escalation/Privesc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "complete beginner/Shells and Privilege Escalation/What the Shell?.md",
+                "file": "complete beginner/Shells and Privilege Escalation/Privesc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "complete beginner/Shells and Privilege Escalation/What the Shell?.md"
+                "file": "complete beginner/Shells and Privilege Escalation/Privesc.md"
               }
             }
           },
@@ -159,6 +159,7 @@
   "active": "397f1f8a19f386eb",
   "lastOpenFiles": [
     "complete beginner/Shells and Privilege Escalation/What the Shell?.md",
+    "complete beginner/Shells and Privilege Escalation/Privesc.md",
     "complete beginner/Shells and Privilege Escalation",
     "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
     "complete beginner/Cryptography/Encryption - Crypto 101.md",
@@ -198,7 +199,6 @@
     "complete beginner/Introductory Researching/Vulnerability Searching.md",
     "complete beginner/Introductory Researching.md",
     "complete beginner/Introductory Researching",
-    "pre security/Subnetting.md",
     "Pasted image 20240309104721.png",
     "Pasted image 20240309104907.png",
     "Untitled 2.canvas",
