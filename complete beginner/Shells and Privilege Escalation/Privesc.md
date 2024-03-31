@@ -39,3 +39,12 @@ _Crontab_ _Contents**:**_ The scheduled cron jobs are shown below. Cron is use
 - a permission to a file that help it to run with the permission of it's owner group
 ### Exploiting writeable etc/passwd 
 - It's simple really, if we have a writable `/etc/passwd` file, we can write a new line entry according to the above formula and create a new user! We add the password hash of our choice, and set the UID, GID and shell to root. Allowing us to log in as our own root user!
+### Exploiting path
+#### path
+- PATH is an environmental variable in Linux and Unix-like operating systems which specifies directories that hold executable programs. When the user runs any command in the terminal, it searches for executable files with the help of the PATH Variable in response to commands executed by a user.
+> Let's say we have an SUID binary. Running it, we can see that it’s calling the system shell to do a basic process like list processes with "ps". Unlike in our previous SUID example, in this situation we can't exploit it by supplying an argument for command injection, so what can we do to try and exploit this?
+
+>We can re-write the PATH variable to a location of our choosing! So when the SUID binary calls the system shell to run an executable, it runs one that we've written instead!
+
+>As with any SUID file, it will run this command with the same privileges as the owner of the SUID file! If this is root, using this method we can run whatever commands we like as root!
+
