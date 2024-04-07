@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Windows Fundamentals II.md",
+                "file": "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Windows Fundamentals II.md",
+                "file": "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Windows Fundamentals II.md",
+                "file": "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Windows Fundamentals II.md"
+                "file": "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md"
               }
             }
           },
@@ -158,9 +158,10 @@
   },
   "active": "397f1f8a19f386eb",
   "lastOpenFiles": [
+    "complete beginner/Windows Exploitation Basics/Windows Fundamentals II.md",
+    "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md",
     "Pasted image 20240401111224.png",
     "pre security/HTTP.md",
-    "complete beginner/Windows Exploitation Basics/Windows Fundamentals II.md",
     "complete beginner/Shells and Privilege Escalation/Privesc.md",
     "complete beginner/Shells and Privilege Escalation/What the Shell?.md",
     "complete beginner/Shells and Privilege Escalation",
@@ -200,7 +201,6 @@
     "Pasted image 20240311222148.png",
     "complete beginner/Introductory Researching",
     "Pasted image 20240309104721.png",
-    "Pasted image 20240309104907.png",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
