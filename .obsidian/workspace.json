@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "complete beginner/Network Exploitation Basics/Network Services 1.md",
+                "file": "complete beginner/Cryptography/John The Ripper.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "560200bddb57188b",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "complete beginner/Network Exploitation Basics/Network Services 1.md",
+                "file": "complete beginner/Cryptography/John The Ripper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "complete beginner/Network Exploitation Basics/Network Services 1.md",
+                "file": "complete beginner/Cryptography/John The Ripper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "complete beginner/Network Exploitation Basics/Network Services 1.md"
+                "file": "complete beginner/Cryptography/John The Ripper.md"
               }
             }
           },
@@ -156,8 +155,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "397f1f8a19f386eb",
+  "active": "98e256dc18b1196a",
   "lastOpenFiles": [
+    "complete beginner/Untitled 1",
+    "complete beginner/Untitled",
+    "complete beginner/Network Exploitation Basics/Network Services 1.md",
     "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md",
     "complete beginner/Network Exploitation Basics/nmap.md",
     "complete beginner/Windows Exploitation Basics/Windows Fundamentals II.md",
@@ -181,7 +183,6 @@
     "complete beginner/web hacking fundamentals/OWASP Juice Shop.md",
     "complete beginner/Network Exploitation Basics/Network Service 2.md",
     "complete beginner/Network Exploitation Basics/Networking Intro.md",
-    "complete beginner/Network Exploitation Basics/Network Services 1.md",
     "complete beginner/web hacking fundamentals/OWASP Top 10 - 2021.md",
     "Broken Access Control.md",
     "Pasted image 20240319112536.png",
@@ -196,7 +197,6 @@
     "complete beginner/LInux Fundamentals/Linux Fundamentals 2.md",
     "complete beginner/LInux Fundamentals",
     "complete beginner/Introductory Researching/Google Dorking.md",
-    "complete beginner/Introductory Researching/Methodology.md",
     "Pasted image 20240312100619.png",
     "Pasted image 20240311222148.png",
     "complete beginner/Introductory Researching",
@@ -205,7 +205,6 @@
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Untitled 2",
-    "Untitled 1",
-    "complete beginner"
+    "Untitled 1"
   ]
 }
