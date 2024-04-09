@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Active Directory.md",
+                "file": "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Active Directory.md",
+                "file": "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Active Directory.md",
+                "file": "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Active Directory.md"
+                "file": "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md"
               }
             }
           },
@@ -158,8 +158,8 @@
   },
   "active": "397f1f8a19f386eb",
   "lastOpenFiles": [
-    "complete beginner/Windows Exploitation Basics/Windows Fundamentals II.md",
     "complete beginner/Windows Exploitation Basics/Active Directory.md",
+    "complete beginner/Windows Exploitation Basics/Windows Fundamentals II.md",
     "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md",
     "Pasted image 20240401111224.png",
     "pre security/HTTP.md",
