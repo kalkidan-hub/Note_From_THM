@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md",
+                "file": "complete beginner/Network Exploitation Basics/Network Services 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md",
+                "file": "complete beginner/Network Exploitation Basics/Network Services 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md",
+                "file": "complete beginner/Network Exploitation Basics/Network Services 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md"
+                "file": "complete beginner/Network Exploitation Basics/Network Services 1.md"
               }
             }
           },
@@ -158,9 +158,10 @@
   },
   "active": "397f1f8a19f386eb",
   "lastOpenFiles": [
-    "complete beginner/Windows Exploitation Basics/Active Directory.md",
-    "complete beginner/Windows Exploitation Basics/Windows Fundamentals II.md",
     "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md",
+    "complete beginner/Network Exploitation Basics/nmap.md",
+    "complete beginner/Windows Exploitation Basics/Windows Fundamentals II.md",
+    "complete beginner/Windows Exploitation Basics/Active Directory.md",
     "Pasted image 20240401111224.png",
     "pre security/HTTP.md",
     "complete beginner/Shells and Privilege Escalation/Privesc.md",
@@ -179,7 +180,6 @@
     "complete beginner/Windows Exploitation Basics",
     "complete beginner/web hacking fundamentals/OWASP Juice Shop.md",
     "complete beginner/Network Exploitation Basics/Network Service 2.md",
-    "complete beginner/Network Exploitation Basics/nmap.md",
     "complete beginner/Network Exploitation Basics/Networking Intro.md",
     "complete beginner/Network Exploitation Basics/Network Services 1.md",
     "complete beginner/web hacking fundamentals/OWASP Top 10 - 2021.md",
