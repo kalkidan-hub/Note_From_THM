@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Metasploit Exploitation.md",
+                "file": "complete beginner/Windows Exploitation Basics/Metasploit Meterpreter.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Metasploit Exploitation.md",
+                "file": "complete beginner/Windows Exploitation Basics/Metasploit Meterpreter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Metasploit Exploitation.md",
+                "file": "complete beginner/Windows Exploitation Basics/Metasploit Meterpreter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Metasploit Exploitation.md"
+                "file": "complete beginner/Windows Exploitation Basics/Metasploit Meterpreter.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "9d5240d8df0ffc3e",
   "lastOpenFiles": [
-    "complete beginner/Windows Exploitation Basics/Metasploit.md",
     "complete beginner/Windows Exploitation Basics/Metasploit Exploitation.md",
+    "complete beginner/Windows Exploitation Basics/Metasploit Meterpreter.md",
+    "complete beginner/Windows Exploitation Basics/Metasploit.md",
     "Pasted image 20240414135144.png",
     "complete beginner/Windows Exploitation Basics/Active Directory.md",
     "Pasted image 20240414124549.png",
@@ -199,7 +200,6 @@
     "complete beginner/web hacking fundamentals",
     "pre security/TCP-IP.md",
     "pre security/OSI Model.md",
-    "complete beginner/LInux Fundamentals/Linux Fundamentals 3.md",
     "complete beginner/Network Exploitation Basics",
     "complete beginner/LInux Fundamentals",
     "complete beginner/Introductory Researching",
