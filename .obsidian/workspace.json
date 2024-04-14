@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Metasploit.md",
+                "file": "complete beginner/Windows Exploitation Basics/Metasploit Exploitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Metasploit.md",
+                "file": "complete beginner/Windows Exploitation Basics/Metasploit Exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Metasploit.md",
+                "file": "complete beginner/Windows Exploitation Basics/Metasploit Exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Metasploit.md"
+                "file": "complete beginner/Windows Exploitation Basics/Metasploit Exploitation.md"
               }
             }
           },
@@ -158,9 +158,10 @@
   },
   "active": "9d5240d8df0ffc3e",
   "lastOpenFiles": [
+    "complete beginner/Windows Exploitation Basics/Metasploit.md",
+    "complete beginner/Windows Exploitation Basics/Metasploit Exploitation.md",
     "Pasted image 20240414135144.png",
     "complete beginner/Windows Exploitation Basics/Active Directory.md",
-    "complete beginner/Windows Exploitation Basics/Metasploit.md",
     "Pasted image 20240414124549.png",
     "Pasted image 20240414123550.png",
     "Pasted image 20240414122332.png",
@@ -186,7 +187,6 @@
     "Pasted image 20240325120137.png",
     "Pasted image 20240325115943.png",
     "Pasted image 20240325115753.png",
-    "Pasted image 20240325115512.png",
     "complete beginner/Cryptography/Hashing.md",
     "complete beginner/Cryptography",
     "complete beginner/Windows Exploitation Basics",
