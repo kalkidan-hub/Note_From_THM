@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Active Directory.md",
+                "file": "complete beginner/Windows Exploitation Basics/Metasploit.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Active Directory.md",
+                "file": "complete beginner/Windows Exploitation Basics/Metasploit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Active Directory.md",
+                "file": "complete beginner/Windows Exploitation Basics/Metasploit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Active Directory.md"
+                "file": "complete beginner/Windows Exploitation Basics/Metasploit.md"
               }
             }
           },
@@ -158,6 +158,9 @@
   },
   "active": "9d5240d8df0ffc3e",
   "lastOpenFiles": [
+    "Pasted image 20240414135144.png",
+    "complete beginner/Windows Exploitation Basics/Active Directory.md",
+    "complete beginner/Windows Exploitation Basics/Metasploit.md",
     "Pasted image 20240414124549.png",
     "Pasted image 20240414123550.png",
     "Pasted image 20240414122332.png",
@@ -172,7 +175,6 @@
     "complete beginner/Shells and Privilege Escalation/Linux PrivEsc.md",
     "complete beginner/Network Exploitation Basics/nmap.md",
     "complete beginner/Windows Exploitation Basics/Windows Fundamentals II.md",
-    "complete beginner/Windows Exploitation Basics/Active Directory.md",
     "Pasted image 20240401111224.png",
     "pre security/HTTP.md",
     "complete beginner/Shells and Privilege Escalation/Privesc.md",
@@ -193,14 +195,12 @@
     "complete beginner/Network Exploitation Basics/Networking Intro.md",
     "complete beginner/web hacking fundamentals/OWASP Top 10 - 2021.md",
     "Broken Access Control.md",
-    "Pasted image 20240319112536.png",
     "complete beginner/web hacking fundamentals/Burp Suite.md",
     "complete beginner/web hacking fundamentals",
     "pre security/TCP-IP.md",
     "pre security/OSI Model.md",
     "complete beginner/LInux Fundamentals/Linux Fundamentals 3.md",
     "complete beginner/Network Exploitation Basics",
-    "().md",
     "complete beginner/LInux Fundamentals",
     "complete beginner/Introductory Researching",
     "Untitled 2.canvas",
