@@ -8,12 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aacf472842e68ed8",
+            "id": "f27138b2202f5d56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "complete beginner/Cryptography/John The Ripper.md",
+                "file": "complete beginner/Windows Exploitation Basics/Windows Fundamentals II.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1fd9309f818266fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "complete beginner/Windows Exploitation Basics/Active Directory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56bae89fca2899f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "complete beginner/Windows Exploitation Basics/Metasploit.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Metasploit Meterpreter.md",
+                "file": "complete beginner/Windows Exploitation Basics/Metasploit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Metasploit Meterpreter.md",
+                "file": "complete beginner/Windows Exploitation Basics/Metasploit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "complete beginner/Windows Exploitation Basics/Metasploit Meterpreter.md"
+                "file": "complete beginner/Windows Exploitation Basics/Metasploit.md"
               }
             }
           },
@@ -181,15 +205,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "06a217d23a7bb87e",
+  "active": "56bae89fca2899f4",
   "lastOpenFiles": [
-    "complete beginner/Windows Exploitation Basics/Windows Fundamentals II.md",
     "complete beginner/Windows Exploitation Basics/Metasploit Exploitation.md",
-    "complete beginner/Cryptography/John The Ripper.md",
-    "complete beginner/Windows Exploitation Basics/Metasploit Meterpreter.md",
     "complete beginner/Windows Exploitation Basics/Metasploit.md",
-    "Pasted image 20240414135144.png",
     "complete beginner/Windows Exploitation Basics/Active Directory.md",
+    "complete beginner/Windows Exploitation Basics/Windows Fundamentals II.md",
+    "complete beginner/Windows Exploitation Basics/Metasploit Meterpreter.md",
+    "complete beginner/Cryptography/John The Ripper.md",
+    "Pasted image 20240414135144.png",
     "Pasted image 20240414124549.png",
     "Pasted image 20240414123550.png",
     "Pasted image 20240414122332.png",
