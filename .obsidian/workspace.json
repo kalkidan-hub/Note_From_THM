@@ -11,8 +11,12 @@
             "id": "fd1d37ab787d7637",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md"
+              }
             }
           },
           {
@@ -150,6 +158,9 @@
   },
   "active": "fd1d37ab787d7637",
   "lastOpenFiles": [
+    "complete beginner/web hacking fundamentals/OWASP Top 10 - 2021.md",
+    "complete beginner/web hacking fundamentals/OWASP Juice Shop.md",
+    "complete beginner/web hacking fundamentals/Burp Suite.md",
     "complete beginner/Windows Exploitation Basics/Metasploit Meterpreter.md",
     "complete beginner/Windows Exploitation Basics/Windows Fundamentals II.md",
     "complete beginner/Windows Exploitation Basics/Active Directory.md",
@@ -183,12 +194,9 @@
     "complete beginner/Cryptography/Hashing.md",
     "complete beginner/Cryptography",
     "complete beginner/Windows Exploitation Basics",
-    "complete beginner/web hacking fundamentals/OWASP Juice Shop.md",
     "complete beginner/Network Exploitation Basics/Network Service 2.md",
     "complete beginner/Network Exploitation Basics/Networking Intro.md",
-    "complete beginner/web hacking fundamentals/OWASP Top 10 - 2021.md",
     "Broken Access Control.md",
-    "complete beginner/web hacking fundamentals/Burp Suite.md",
     "complete beginner/web hacking fundamentals",
     "pre security/TCP-IP.md",
     "pre security/OSI Model.md",
