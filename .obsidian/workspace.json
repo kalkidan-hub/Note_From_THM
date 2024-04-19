@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f1aec9b7844d03a7",
+        "id": "9718f40757571482",
         "type": "tabs",
         "children": [
           {
-            "id": "fd1d37ab787d7637",
+            "id": "c440ba5bf010c05c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "560200bddb57188b",
@@ -156,8 +151,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd1d37ab787d7637",
+  "active": "98e256dc18b1196a",
   "lastOpenFiles": [
+    "APISEC",
     "complete beginner/web hacking fundamentals/OWASP Top 10 - 2021.md",
     "complete beginner/web hacking fundamentals/OWASP Juice Shop.md",
     "complete beginner/web hacking fundamentals/Burp Suite.md",
@@ -199,7 +195,6 @@
     "Broken Access Control.md",
     "complete beginner/web hacking fundamentals",
     "pre security/TCP-IP.md",
-    "pre security/OSI Model.md",
     "complete beginner/Network Exploitation Basics",
     "complete beginner/LInux Fundamentals",
     "complete beginner/Introductory Researching",
