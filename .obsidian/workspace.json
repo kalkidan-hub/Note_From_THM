@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9718f40757571482",
+        "id": "6530fe329b22139b",
         "type": "tabs",
         "children": [
           {
-            "id": "c440ba5bf010c05c",
+            "id": "71a13825dca2f480",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -155,8 +155,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c440ba5bf010c05c",
+  "active": "71a13825dca2f480",
   "lastOpenFiles": [
+    "web.archive.org.md",
     "APISEC/Reconnaissance.md",
     "APISEC",
     "complete beginner/web hacking fundamentals/OWASP Top 10 - 2021.md",
@@ -199,7 +200,6 @@
     "complete beginner/Network Exploitation Basics/Networking Intro.md",
     "Broken Access Control.md",
     "complete beginner/web hacking fundamentals",
-    "pre security/TCP-IP.md",
     "complete beginner/Network Exploitation Basics",
     "complete beginner/LInux Fundamentals",
     "complete beginner/Introductory Researching",
