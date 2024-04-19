@@ -11,8 +11,12 @@
             "id": "c440ba5bf010c05c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "APISEC/Reconnaissance.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
+                "file": "APISEC/Reconnaissance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md",
+                "file": "APISEC/Reconnaissance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "complete beginner/web hacking fundamentals/Upload Vulnerabilities.md"
+                "file": "APISEC/Reconnaissance.md"
               }
             }
           },
@@ -151,8 +155,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "98e256dc18b1196a",
+  "active": "c440ba5bf010c05c",
   "lastOpenFiles": [
+    "APISEC/Reconnaissance.md",
     "APISEC",
     "complete beginner/web hacking fundamentals/OWASP Top 10 - 2021.md",
     "complete beginner/web hacking fundamentals/OWASP Juice Shop.md",
@@ -200,7 +205,6 @@
     "complete beginner/Introductory Researching",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
-    "Untitled.canvas",
-    "Untitled 2"
+    "Untitled.canvas"
   ]
 }
