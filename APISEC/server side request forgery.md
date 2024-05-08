@@ -11,3 +11,7 @@ When targeting an API for SSRF vulnerabilities, you will want to look for reque
 - Include URL paths (or partial URLs) in the POST body or parameters
 - Headers that include URLs like Referer
 - Allows for user input that may result in a server retrieving resources
+
+
+### From THM
+SSRF allows an attacker to interact with internal systems, potentially leading to data leaks, service disruption or even to remote code execution... how??
