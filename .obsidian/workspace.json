@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a4881d069d9e1336",
+        "id": "83d5c20ed97671c4",
         "type": "tabs",
         "children": [
           {
-            "id": "6fe766b50b8ab8c7",
+            "id": "4e24f991f07f65a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APISEC/server side request forgery.md",
+                "file": "APISEC/Token Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APISEC/server side request forgery.md",
+                "file": "APISEC/Token Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APISEC/server side request forgery.md",
+                "file": "APISEC/Token Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APISEC/server side request forgery.md"
+                "file": "APISEC/Token Analysis.md"
               }
             }
           },
@@ -156,15 +156,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6fe766b50b8ab8c7",
+  "active": "4e24f991f07f65a9",
   "lastOpenFiles": [
-    "APISEC/Evasive maneuver.md",
-    "APISEC/Injection.md",
-    "APISEC/server side request forgery.md",
-    "APISEC/Authorization.md",
     "APISEC/Token Analysis.md",
+    "APISEC/server side request forgery.md",
     "APISEC/Endpoint Analysis.md",
+    "APISEC/Evasive maneuver.md",
     "APISEC/Reconnaissance.md",
+    "APISEC/Injection.md",
+    "APISEC/Authorization.md",
     "web.archive.org.md",
     "APISEC",
     "complete beginner/web hacking fundamentals/OWASP Top 10 - 2021.md",
