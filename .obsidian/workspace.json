@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APISEC/Token Analysis.md",
+                "file": "APISEC/Authorization.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "560200bddb57188b",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APISEC/Token Analysis.md",
+                "file": "APISEC/Authorization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APISEC/Token Analysis.md",
+                "file": "APISEC/Authorization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APISEC/Token Analysis.md"
+                "file": "APISEC/Authorization.md"
               }
             }
           },
@@ -158,13 +157,14 @@
   },
   "active": "4e24f991f07f65a9",
   "lastOpenFiles": [
+    "APISEC/Evasive maneuver.md",
+    "APISEC/Endpoint Analysis.md",
     "APISEC/Token Analysis.md",
     "APISEC/server side request forgery.md",
-    "APISEC/Endpoint Analysis.md",
-    "APISEC/Evasive maneuver.md",
-    "APISEC/Reconnaissance.md",
     "APISEC/Injection.md",
     "APISEC/Authorization.md",
+    "APISEC/Reconnaissance.md",
+    "complete beginner/Cryptography/John The Ripper.md",
     "web.archive.org.md",
     "APISEC",
     "complete beginner/web hacking fundamentals/OWASP Top 10 - 2021.md",
@@ -175,7 +175,6 @@
     "complete beginner/Windows Exploitation Basics/Active Directory.md",
     "complete beginner/Windows Exploitation Basics/Metasploit.md",
     "complete beginner/Windows Exploitation Basics/Metasploit Exploitation.md",
-    "complete beginner/Cryptography/John The Ripper.md",
     "Pasted image 20240414135144.png",
     "Pasted image 20240414124549.png",
     "Pasted image 20240414123550.png",
