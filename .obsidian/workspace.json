@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "053b9ed718b4eb34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DoS.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "560200bddb57188b",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APISEC/server side request forgery.md",
+                "file": "DoS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APISEC/server side request forgery.md",
+                "file": "DoS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APISEC/server side request forgery.md"
+                "file": "DoS.md"
               }
             }
           },
@@ -155,13 +169,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e24f991f07f65a9",
+  "active": "053b9ed718b4eb34",
   "lastOpenFiles": [
+    "APISEC/server side request forgery.md",
+    "DoS.md",
+    "Pentesting",
     "APISEC/Authorization.md",
     "APISEC/Evasive maneuver.md",
     "APISEC/Endpoint Analysis.md",
     "APISEC/Token Analysis.md",
-    "APISEC/server side request forgery.md",
     "APISEC/Injection.md",
     "APISEC/Reconnaissance.md",
     "complete beginner/Cryptography/John The Ripper.md",
@@ -191,7 +207,6 @@
     "Pasted image 20240401111224.png",
     "pre security/HTTP.md",
     "complete beginner/Shells and Privilege Escalation/Privesc.md",
-    "complete beginner/Shells and Privilege Escalation/What the Shell?.md",
     "complete beginner/Shells and Privilege Escalation",
     "Pasted image 20240325120219.png",
     "Pasted image 20240325120137.png",
@@ -202,7 +217,6 @@
     "complete beginner/web hacking fundamentals",
     "complete beginner/Network Exploitation Basics",
     "complete beginner/LInux Fundamentals",
-    "complete beginner/Introductory Researching",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"
